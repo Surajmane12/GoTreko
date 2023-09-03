@@ -1,0 +1,72 @@
+.d-block{
+    height: 600px;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+.customer-review h2{
+    text-align: center;
+    padding:5px 0px
+  }
+.customer-review{
+    background: url('https://media.istockphoto.com/id/1311934969/photo/contact-us.jpg?b=1&s=170667a&w=0&k=20&c=2sJEN1Hhg6heUi1ZxKs6pJDwcyLYXPc4pUGd3hEjOjE=') no-repeat center center/cover;
+
+}
+  #review-name,
+  #review-email,
+  #review-mobile,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="submit"]:focus {
+    outline: none;
+  }
+  #review-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .navbar{
+    background-color: rgb(57, 9, 9);
+  }
+
+  #footer{
+    color: white;
+    background-color: rgb(113, 0, 0);
+  }
